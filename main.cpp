@@ -8,7 +8,10 @@
 #include "SensorData.h"
 #include "MQTTNetwork.h"
 
+#include <map>
+
 using namespace XBeeLib;
+using namespace std;
 
 //www.mbed.com CA certificate in PEM format
 char  CA_cert []="-----BEGIN CERTIFICATE-----\r\n"
